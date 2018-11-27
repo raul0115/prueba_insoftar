@@ -4,6 +4,7 @@ Ejecutar los siguientes comandos:
 
 1. composer install (Solo la primera vez)
 2. php artisan migrate:refresh --seed (Ejecuta todos las migraciones y sus seeders)
+3. php artisan queue:work (para ejecutar la tarea de envios de correos mediante colas)
 3. User: admin@insoftar.com Password: 123456
 
 
